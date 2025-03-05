@@ -3,7 +3,7 @@ struct doubly_node{
     struct doubly_node *next;
     struct doubly_node *previous;
 };
-extern struct doubly_node *temp, *head, *new_node;
+extern struct doubly_node *temp, *head, *new_node, *prev;
 extern int length;
 
 void createNode();//done
